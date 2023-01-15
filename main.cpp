@@ -12,7 +12,7 @@ int main()
    cout << "What is the width of the rectangle? ";
     cin >> width; 
   //compute perimeter
-    perimeter = (length * 2) + (width * 2);
+    perimeter = 2 * (length + width);
   //compute area
     area = length * width;
   //display all info
